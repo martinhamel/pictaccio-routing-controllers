@@ -1,4 +1,4 @@
-import { ValidatorOptions } from '@loufa/class-validator';
+import { ValidatorOptions } from 'class-validator';
 import { ActionMetadata } from './ActionMetadata';
 import { ParamMetadataArgs } from './args/ParamMetadataArgs';
 import { ParamType } from './types/ParamType';

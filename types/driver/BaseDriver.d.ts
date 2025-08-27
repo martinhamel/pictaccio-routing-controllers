@@ -1,4 +1,4 @@
-import { ValidatorOptions } from '@loufa/class-validator';
+import { ValidatorOptions } from 'class-validator';
 import { ClassTransformOptions } from 'class-transformer';
 import { CurrentUserChecker } from '../CurrentUserChecker';
 import { AuthorizationChecker } from '../AuthorizationChecker';

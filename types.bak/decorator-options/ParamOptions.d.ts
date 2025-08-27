@@ -1,4 +1,4 @@
-import { ValidatorOptions } from '@loufa/class-validator';
+import { ValidatorOptions } from 'class-validator';
 import { ClassTransformOptions } from 'class-transformer';
 /**
  * Extra options set to the parameter decorators.

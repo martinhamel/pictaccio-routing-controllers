@@ -1,4 +1,4 @@
-import { ValidatorOptions } from '@loufa/class-validator';
+import { ValidatorOptions } from 'class-validator';
 import { ClassTransformOptions, instanceToPlain } from 'class-transformer';
 
 import { HttpError } from '../http-error/HttpError';
