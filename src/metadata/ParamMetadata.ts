@@ -112,10 +112,12 @@ export class ParamMetadata {
     this.extraOptions = args.extraOptions;
     this.index = args.index;
     this.type = args.type;
-    this.name = args.name;
+    this.name = args.name ?? '';
     this.parse = args.parse;
     this.required = args.required;
-    this.transform = args.transform;
+    this.transform = args.transform
+      ? ((action: Action, value?: any) => args.transform!(value, (action as any).request, (action as any).response))
+      : ((action: Action, value?: any) => value);
     this.classTransform = args.classTransform;
     this.validate = args.validate;
     this.isArray = args.isArray;
