@@ -1,0 +1,9 @@
+services:
+  pictaccio-routing-controllers:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app:z
+    ports:
+      - "3000:3000"
