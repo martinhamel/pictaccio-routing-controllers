@@ -1,0 +1,1 @@
+{"version":3,"file":"OwnershipChecker.js","sourceRoot":"","sources":["../../../src/metadata/types/OwnershipChecker.ts"],"names":[],"mappings":"","sourcesContent":["import { Action } from '../../Action';\n\nexport type OwnershipChecker = (action?: Action, user?: any) => boolean | Promise<boolean>;\n"]}
